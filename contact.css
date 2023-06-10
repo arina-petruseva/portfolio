@@ -1,0 +1,61 @@
+.logo {
+    height: 80px;
+}
+
+#logos {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+form {
+    /*border: solid 2px black;*/
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#persons_info label {
+    display: block;
+    margin-top: 7%;
+}
+#persons_info input {
+    display: block;
+    margin-top: 1%;
+    width: 400px;
+    border: solid 1px #D834FE;
+    border-radius: 4px;
+    height: 30px;
+    font-size: 16px;
+}
+
+#persons_message label {
+    display: block;
+    margin-top: 7%;
+}
+#persons_message textarea {
+    display: block;
+    margin-top: 1%;
+}
+
+textarea {
+    border: solid 1px #D834FE;
+    border-radius: 4px;
+    width: 400px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: 0;
+    width: 80px;
+    height: 30px;
+    border: solid 1px #D834FE;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+}
+

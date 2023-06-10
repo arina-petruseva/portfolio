@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header { 
+    max-width: 1200px;
+    margin: auto;
+    /*border: solid 2px #D834FE;*/
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  nav a:visited {
+    color: black;
+  }
+  #banner img {
+    height: 200px;
+    border-radius: 100px;
+    border: solid 1px black;
+  }
+  #banner {
+    display: flex;
+    background-image: radial-gradient(#D834FE 1px, transparent 0);
+    background-size: 30px 30px;
+    border: solid 2px #D834FE;
+    border-radius: 10px;
+    justify-content: space-around;
+    max-width: 1200px; 
+    margin: auto;
+    padding: 1%;
+  }
+  #name-and-title {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 44px;
+  }
+  #featured-projects {
+    /*border: solid 1px grey;*/
+    max-width: 1200px; 
+    margin: auto;
+  }
+  #featured-projects-list {
+    /*border: solid 1px grey;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px; 
+    margin: auto;
+  }
+  h2 {
+    max-width: 1200px; 
+    /*border: solid 1px grey;*/
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 40px;
+  }
+  .project {
+    border: solid 1px #D834FE;
+    border-radius: 10px;
+    width: 300px; 
+    margin: 10px;
+    padding: 10px;
+  }
+  #featured-projects > a {
+    font-style: italic;
+    /*border: solid 1px grey;*/
+    padding-left: 40px; 
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+    color: grey
+    
+  }
+  #featured-projects > a:visited {
+    color: grey;
+  }
+
+  #featured-projects-list a {
+    text-decoration: none;
+    color: black;
+  }
+
