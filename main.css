@@ -27,6 +27,7 @@ body {
   }
   #banner {
     display: flex;
+    flex-wrap: wrap;
     background-image: radial-gradient(#D834FE 1px, transparent 0);
     background-size: 30px 30px;
     border: solid 2px #D834FE;
@@ -38,6 +39,7 @@ body {
   }
   #name-and-title {
     padding: 20px;
+    /*border: solid 2px black;*/
   }
   h1 {
     font-size: 44px;
@@ -47,7 +49,7 @@ body {
     max-width: 1200px; 
     margin: auto;
   }
-  #featured-projects-list {
+  #projects {
     /*border: solid 1px grey;*/
     display: flex;
     justify-content: space-around;
@@ -83,7 +85,7 @@ body {
     color: grey;
   }
 
-  #featured-projects-list a {
+  #projects a {
     text-decoration: none;
     color: black;
   }
