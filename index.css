@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0 1%;
     padding: 0;
   }
   
@@ -20,6 +20,7 @@ body {
   nav a:visited {
     color: black;
   }
+
   #banner img {
     height: 200px;
     border-radius: 100px;
@@ -60,9 +61,8 @@ body {
   h2 {
     max-width: 1200px; 
     /*border: solid 1px grey;*/
-    margin: auto;
-    margin-top: 50px;
-    padding-left: 40px;
+    margin: 50px auto 0;
+    padding-left: 2em;
   }
   .project {
     border: solid 1px #D834FE;
@@ -89,4 +89,9 @@ body {
     text-decoration: none;
     color: black;
   }
-
+  /*iphone SE viewport width - 375px, iphone 14 pro max - 430px* ipad pro 12.9inch 5th gen - 1024px(vertical)*/
+  @media only screen and (max-width: 500px) {
+    #banner {
+      padding-bottom: 5%;
+    }
+  }

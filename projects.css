@@ -4,18 +4,7 @@
     border: solid 1px black;
     margin: 5px;
   }
-  #banner {
-    display: flex;
-    flex-wrap: wrap;
-    background-image: radial-gradient(#D834FE 1px, transparent 0);
-    background-size: 30px 30px;
-    border: solid 2px #D834FE;
-    border-radius: 10px;
-    justify-content: space-around;
-    max-width: 1200px; 
-    margin: auto;
-    padding: 0 1%;
-  }
+
   #name-and-title {
     padding: 0 20px;
     /*border: solid 2px black;*/
@@ -29,4 +18,10 @@
     height: 200px;
     border: solid 1px black;
     border-radius: 10px;
+  }
+  /*iphone SE viewport width - 375px, iphone 14 pro max - 430px*/
+  @media only screen and (max-width: 500px) {
+    #banner img {
+      display: none;
+    }
   }
