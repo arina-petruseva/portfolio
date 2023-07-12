@@ -91,6 +91,15 @@ body {
   }
   /*iphone SE viewport width - 375px, iphone 14 pro max - 430px* ipad pro 12.9inch 5th gen - 1024px(vertical)*/
   @media only screen and (max-width: 500px) {
+    header {
+      background-color: white;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    main {
+      margin-top: 60px;
+    }
     #banner {
       padding-bottom: 5%;
     }
