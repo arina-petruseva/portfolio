@@ -75,10 +75,9 @@ body {
     font-style: italic;
     /*border: solid 1px grey;*/
     padding-left: 40px; 
-    position: relative;
-    top: 10px;
     font-size: 16px;
-    color: grey
+    color: grey;
+    padding-bottom: 5%; /*so that is't not too close to bottom of page*/
     
   }
   #featured-projects > a:visited {
